@@ -60,11 +60,6 @@ fun checkIp(name:String,result:Boolean,correctResult:Boolean){
 
 
 
-fun ipv4Checker(ip:String):Boolean{
-    //logic
-    return false
-}
-
 
 /*
 kotlinc ipv4\testcase_ip.kt -include-runtime -d ipv4\testcase_ip.jar
