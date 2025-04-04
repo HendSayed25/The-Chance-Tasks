@@ -68,7 +68,6 @@ fun checkIp(name:String,result:Boolean,correctResult:Boolean){
 
 
 
-
 /*
 kotlinc ipv4\testcase_ip.kt -include-runtime -d ipv4\testcase_ip.jar
 java -jar ipv4\testcase_ip.jar
