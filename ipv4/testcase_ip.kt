@@ -40,12 +40,16 @@ fun main(){
         result=ipv4Checker("192. 2.5.1"),
         correctResult=false
     )
+     checkIp(
+        name="when the input is empty return wrong",
+        result=ipv4Checker(""),
+        correctResult=false
+    )
     checkIp(
         name="when the input achieves what is required return true",
         result=ipv4Checker("192.168.1.1"),
         correctResult=true
     )
-
 
 }
 
@@ -60,10 +64,9 @@ fun checkIp(name:String,result:Boolean,correctResult:Boolean){
 
 
 
-fun ipv4Checker(ip:String):Boolean{
-    //logic
-    return false
-}
+
+
+
 
 
 /*
